@@ -68,7 +68,6 @@ function render(grid) {
       ctx.rect(col * resolution, row * resolution, resolution, resolution);
       ctx.fillStyle = cell ? "#3E172D" : "#fff";
       ctx.fill();
-      //ctx.stroke();
     }
   }
 }
